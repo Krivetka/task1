@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link href="index.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/b9d02d4328.js" crossorigin="anonymous"></script>
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=055cd1cc-c693-46c3-ab68-445ae50e1571&lang=ru_RU" >
+    </script>
+    <script>
+        ymaps.ready(init);
+        function init(){
+            var myMap = new ymaps.Map("map", {
+                center: [53.90, 27.56],
+                zoom: 13
+            });
+        }
+    </script>
+    <title>Title</title>
+</head>
+<body>
+    <div id="bloc1">
+        <p class="logo">SH<span class="o">O</span>PNO</p>
+        <h1 class="slogon">SAY HELLO TO <span class="fon">SHOPNO!</span> </h1>
+        <h1 class="slogon2"><span class="fon">AGENCY </span>CORPORATE SHOPNO THEME</h1>
+        <a href="#contact"><p class="contact">CONTACT US</p></a>
+        <img src="img/glass.png" class="glass" alt="glass">
+    </div>
+    <div id="bloc2">
+        <h2 class="about">ABOUT US</h2>
+        <h3 class="about_h3">LOREM IPSUM DOLOR SIT AMET EVENT LANDING TEMPLATE</h3>
+        <img src="img/about.png" class="about_img" alt="about">
+        <h4 class="about_h4" id="about_h4_1">WE ACTUALLY DO AMAZING WORKS</h4>
+        <p class="about_text" id="about_p1">A visual approach is an approach to a runway at an airport<br> conducted under instrument flight rules. The pilot must at<br> all times have either the airport or the preceding aircraft in<br> approach correct sight. conducted under instrument flight<br> rules. The pilot must at all times.</p>
+        <p class="about_text" id="about_p2">Preceding aircraft in approach correct sight. conducted<br> under instrument flight rules.</p>
+        <h4 class="about_h4" id="about_h4_2">WHY WE ARE THE GREAT?</h4>
+        <p class="about_text" id="about_p3">A visual approach is an approach to a runway at an airport<br> conducted under instrument flight rules.<br> The preceding aircraft in approach correct sight.</p>
+    </div>
+    <a id="work"></a>
+    <div id="bloc3">
+        <h2 id="works">FEATURED WORKS</h2>
+        <p id="works_p">LOREM IPSUM DOLOR SIT AMET EVENT LANDING TEMPLATE</p>
+        <a href="#popup1"><img src="img/work1.png" class="work_img_1_line" id="works_img1" alt="ice"></a>
+        <div id="popup1" class="overlay">
+            <div class="popup">
+                <a class="close" href="#work">&times;</a>
+                <img src="img/work1.png" alt="ice">
+            </div>
+        </div>
+        <a href="#popup2"><img src="img/work2.png" class="work_img_1_line" id="works_img2" alt="business"></a>
+            <div id="popup2" class="overlay">
+                <div class="popup">
+                    <a class="close" href="#work">&times;</a>
+                    <img src="img/work2.png" alt="business">
+                </div>
+            </div>
+            <a href="#popup3"><img src="img/work3.png" class="work_img_1_line" id="works_img3" alt="wine"></a>
+            <div id="popup3" class="overlay">
+                <div class="popup">
+                    <a class="close" href="#work">&times;</a>
+                    <img src="img/work3.png" alt="wine">
+                </div>
+            </div>
+            <a href="#popup4"><img src="img/work4.png" class="work_img_2_line" id="works_img4" alt="book"></a>
+            <div id="popup4" class="overlay">
+                <div class="popup">
+                    <a class="close" href="#work">&times;</a>
+                    <img src="img/work4.png" alt="book">
+                </div>
+            </div>
+            <a href="#popup5"><img src="img/work5.png" class="work_img_2_line" id="works_img5" alt="9"></a>
+            <div id="popup5" class="overlay">
+                <div class="popup">
+                    <a class="close" href="#work">&times;</a>
+                    <img src="img/work5.png" alt="9">
+                </div>
+            </div>
+            <a href="#popup6"><img src="img/work6.png" class="work_img_2_line" id="works_img6" alt="tea"></a>
+            <div id="popup6" class="overlay">
+                <div class="popup">
+                    <a class="close" href="#work">&times;</a>
+                    <img src="img/work6.png" alt="tea">
+                </div>
+            </div>
+    </div>
+    <div id="bloc4">
+        <h1 id="team_h1">SMALL TEAM</h1>
+        <h3 id="team_h3">LOREM IPSUM DOLOR SIT AMET EVENT LANDING TEMPLATE</h3>
+        <img src="img/team1.png" class="team_img_1_line" id="team_img1" alt="person">
+        <div class="cont">
+        <div class="triangle" id="triangle1"></div>
+        <div class="sms" id="sms1">
+            <p class="FIO">DL CORLA<span class="profession"> | UI Designer</span></p>
+            <p class="motto">Lorem Ipsum is not simply is&nbsp; an<br> action designer random text<br> It has roots in a piece. </p>
+            <div class="icons">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-dribbble"></i></a>
+                <a href="#"><i class="far fa-envelope"></i></a>
+            </div>
+        </div>
+        </div>
+        <img src="img/team2.png" class="team_img_1_line" id="team_img2" alt="person">
+        <div class="cont">
+        <div class="triangle" id="triangle2"></div>
+        <div class="sms" id="sms2">
+            <p class="FIO">AL RAYHAN<span class="profession"> | UI Designer</span></p>
+            <p class="motto">Lorem Ipsum is not simply is&nbsp; an<br> action designer random text<br> It has roots in a piece. </p>
+            <div class="icons">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-dribbble"></i></a>
+                <a href="#"><i class="far fa-envelope"></i></a>
+            </div>
+        </div>
+        </div>
+        <img src="img/team3.png" class="team_img_1_line" id="team_img3" alt="person">
+        <div class="cont">
+        <div class="triangle" id="triangle3"></div>
+        <div class="sms" id="sms3">
+            <p class="FIO">AL DOR<span class="profession"> | UI Designer</span></p>
+            <p class="motto">Lorem Ipsum is not simply is&nbsp; an<br> action designer random text<br> It has roots in a piece. </p>
+            <div class="icons">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-dribbble"></i></a>
+                <a href="#"><i class="far fa-envelope"></i></a>
+            </div>
+        </div>
+        </div>
+        <img src="img/team4.png" class="team_img_2_line" id="team_img4" alt="person">
+        <div class="cont">
+        <div class="triangle" id="triangle4"></div>
+        <div class="sms" id="sms4">
+            <p class="FIO">KS ARANAS<span class="profession"> | UI Designer</span></p>
+            <p class="motto">Lorem Ipsum is not simply is&nbsp; an<br> action designer random text<br> It has roots in a piece. </p>
+            <div class="icons">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-dribbble"></i></a>
+                <a href="#"><i class="far fa-envelope"></i></a>
+            </div>
+        </div>
+        </div>
+        <img src="img/team5.png" class="team_img_2_line" id="team_img5" alt="person">
+        <div class="cont">
+        <div class="triangle" id="triangle5"></div>
+        <div class="sms" id="sms5">
+            <p class="FIO">PH CLOR<span class="profession"> | UI Designer</span></p>
+            <p class="motto">Lorem Ipsum is not simply is&nbsp; an<br> action designer random text<br> It has roots in a piece. </p>
+            <div class="icons">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-dribbble"></i></a>
+                <a href="#"><i class="far fa-envelope"></i></a>
+            </div>
+        </div>
+        </div>
+        <img src="img/team6.png" class="team_img_2_line" id="team_img6" alt="person">
+        <div class="cont">
+        <div class="triangle" id="triangle6"></div>
+        <div class="sms" id="sms6">
+            <p class="FIO">DL CORKA<span class="profession">| UI Designer</span></p>
+            <p class="motto">Lorem Ipsum is not simply is&nbsp; an<br> action designer random text<br> It has roots in a piece. </p>
+            <div class="icons">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-dribbble"></i></a>
+                <a href="#"><i class="far fa-envelope"></i></a>
+            </div>
+        </div>
+        </div>
+    </div>
+    <a id="contact"></a>
+    <div id="bloc5">
+        <form class="contact_form" method="post">
+            <input type="text" class="contact_text" id="name" placeholder="Name*" /><br>
+            <input type="text" class="contact_text" id="subject" placeholder="Subject*"/><br>
+            <input type="text" class="contact_text" id="email" placeholder="E-mail*" /><br>
+            <textarea class="contact_text" id="message" rows="6" placeholder="Message*"></textarea><br>
+            <button class="submit" id="send" type="submit">SEND MESSAGE</button>
+        </form>
+        <div class="map">
+            <p class="map_taxt" id="adress">Adress line 1<br>Adress line 2</p>
+            <p class="map_taxt" id="phone">Phone: +548 945645<br>Fax: +456456 54546</p>
+            <p class="map_taxt" id="web">Web: www.designagency.net<br>E-mail: info@designagency.net</p>
+            <div id="map"></div>
+        </div>
+        <h3 id="follow">FOLLOW US</h3>
+        <div id="follow_bt">
+            <a href="#"><i class="fab fa-pinterest-p"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-dribbble"></i></a>
+        </div>
+    </div>
+</body>
+</html>

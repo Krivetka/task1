@@ -1,0 +1,557 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#bloc1 {
+    margin: 0 auto;
+    background-color: #eff0f2;
+    width: 1440px;
+    height: 740px;
+    text-align: left;
+    padding-top: 65px;
+}
+
+.logo{
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 150px;
+    font-size: 17px;
+    font-weight: 800;
+    text-shadow: 0px 0px 1px black;
+    border: 5px solid black;
+    padding: 5px;
+    padding-left: 10px;
+    width: 88px;
+}
+.o{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 21px;
+    color: #77efe5;
+}
+
+.slogon{
+    margin-top: 194px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #505050;
+    text-shadow: 4px 4px 1px rgba(0,0,0,0.1);
+}
+.slogon2{
+    margin-top: 4px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #505050;
+    text-shadow: 4px 4px 1px rgba(0,0,0,0.1);
+}
+.fon{
+    background: #b2f2ee;
+}
+.contact{
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    margin-top: 165px;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #3c3c3d;
+    padding-bottom: 12px;
+    padding-top: 15px;
+    padding-left: 45px;
+    padding-right: 45px;
+    border: 2px solid #777879;
+}
+.contact:hover{
+    background: #dee6eb;
+    transition: 0.5s;
+}
+.glass{
+    width: 120px;
+    height: 155px;
+    margin-top: 157px;
+    margin-left: 1118px;
+}
+
+#bloc2 {
+    margin: 0 auto;
+    background-color: #f8fafa;
+    width: 1440px;
+    height: 920px;
+    text-align: left;
+    padding-top: 65px;
+}
+
+.about{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 55px;
+    margin-left: 20px;
+    font-size: 38px;
+    font-weight: 700;
+    letter-spacing: 1.3px;
+}
+
+.about_h3{
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 5px;
+    letter-spacing: 1.3px;
+    color: #5e5f5f
+}
+.about_img{
+    margin-left: 205px;
+    margin-top: 117px;
+    float: left;
+}
+
+.about_h4{
+    font-family: 'Merriweather', serif;
+    margin-left: 777px;
+}
+.about_text{
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    margin-left: 778px;
+    letter-spacing: 0.8px;
+    line-height: 28px;
+}
+#about_h4_1{
+    margin-top: 143px;
+    font-size: 20px;
+    letter-spacing: 1.4px;
+}
+#about_h4_2{
+    margin-top: 30px;
+    font-size: 17px;
+    letter-spacing: 1.25px;
+}
+#about_p1{
+    margin-top: 20px;
+}
+#about_p2{
+    margin-top: 28px;
+}
+#about_p3{
+    margin-top: 17px;
+}
+#bloc3 {
+    margin: 0 auto;
+    background-color: #ffffff;
+    width: 1440px;
+    height:1047px;
+    text-align: left;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+}
+.overlay:target {
+    visibility: visible;
+    opacity: 1;
+}
+.popup img{
+    width: 518px;
+    height: 503px;
+}
+.popup {
+    margin: 70px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    width: 518px;
+    height: 503px;
+    position: relative;
+    transition: all 5s ease-in-out;
+}
+
+.popup .close {
+    position: absolute;
+    top: 18px;
+    right: 25px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+}
+.popup .close:hover {
+    color: #d8190f;
+}
+.popup .content {
+    max-height: 30%;
+    overflow: auto;
+}
+
+#works{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 38px;
+    margin-top: 119px;
+    margin-left: 42px;
+    letter-spacing: 1.3px;
+    font-weight: 800;
+}
+#works_p{
+    font-family: 'Merriweather', serif;
+    text-align: center;
+    font-size: 16px;
+    color: #616161;
+    margin-top: 5px;
+    letter-spacing: 1.8px;
+}
+.work_img_1_line{
+    margin-top: 119.5px;
+}
+.work_img_2_line{
+    margin-top: 9px;
+
+}
+#works_img1{
+    margin-left: 150px;
+}
+#works_img2{
+    margin-left: 11.5px;
+}
+#works_img3{
+    margin-left: 10px;
+}
+#works_img4{
+    margin-left: 150px;
+}
+#works_img5{
+    margin-left: 11.5px;
+}
+#works_img6{
+    margin-left: 10px;
+}
+
+#bloc4 {
+    margin: 0 auto;
+    background-color: #f9fbfb;
+    width: 1440px;
+    height: 1270px;
+    text-align: left;
+    padding-top: 90px;
+}
+#team_h1{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 38px;
+    font-weight: 800;
+    letter-spacing: 1.25px;
+}
+#team_h3{
+    font-family: 'Merriweather', serif;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 400;
+    color: #616161;
+    margin-top: 3px;
+    letter-spacing: 1.25px;
+}
+.team_img_1_line{
+    margin-top: 117px;
+    position: relative;
+}
+.team_img_2_line{
+    margin-top: 10px;
+}
+.cont{
+    position: absolute;
+    opacity: 0;
+}
+#team_img1:hover +.cont{
+    opacity: 1;
+    transition: 0.2s;
+}
+#team_img2:hover +.cont{
+    opacity: 1;
+    transition: 0.2s;
+}
+#team_img3:hover +.cont{
+    opacity: 1;
+    transition: 0.2s;
+}
+#team_img4:hover +.cont{
+    opacity: 1;
+    transition: 0.2s;
+}
+#team_img5:hover +.cont{
+    opacity: 1;
+    transition: 0.2s;
+}
+#team_img6:hover +.cont{
+    opacity: 1;
+    transition: 0.2s;
+}
+
+.sms{
+    position: absolute;
+    width: 335px;
+    height: 241px;
+    background: #70f6eb;
+}
+
+.FIO{
+    font-family: 'Merriweather', serif;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 39px;
+    margin-left: 39px;
+    letter-spacing: 1.2px;
+}
+
+.profession{
+    font-family: 'Merriweather', serif;
+    font-size: 15px;
+    font-weight: 500;
+    font-style: italic;
+    letter-spacing: 0.8px;
+    color: #767776;
+}
+.motto{
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    margin-top: 16px;
+    margin-left: 38px;
+    letter-spacing: 0.15px;
+    line-height: 24px;
+    color: #225450;
+}
+.icons{
+    margin-left: 29px;
+    margin-top: 32px;
+}
+.icons a{
+    display: inline-block;
+    color: #214946;
+    font-size: 12.5px;
+    margin-left: 10px;
+}
+.icons a:hover i{
+    color: #bcc4c9;
+    transition: 0.7s;
+    transform: scale(1.5);
+}
+.triangle{
+    position: absolute;
+    border: 12px solid transparent;
+    border-bottom: 20px solid #70f6eb;
+}
+
+#team_img1{
+    margin-left: 148px;
+}
+#sms1{
+    margin-top: -260px;
+    margin-left: 165px;
+}
+#triangle1{
+    margin-top: -291px;
+    margin-left: 185px;
+}
+#team_img2{
+    margin-left: 12px;
+}
+#sms2{
+    margin-top: -260px;
+    margin-left: 552px;
+}
+#triangle2{
+    margin-top: -291px;
+    margin-left: 572px;
+}
+#team_img3{
+    margin-left: 12px;
+}
+#sms3{
+    margin-top: -260px;
+    margin-left: 938px;
+}
+#triangle3{
+    margin-top: -291px;
+    margin-left: 958px;
+}
+#team_img4{
+    margin-left: 148px;
+}
+#sms4{
+    margin-top: -260px;
+    margin-left: 165px;
+}
+#triangle4{
+    margin-top: -291px;
+    margin-left: 185px;
+}
+#team_img5{
+    margin-left: 12px;
+}
+#sms5{
+    margin-top: -260px;
+    margin-left: 552px;
+}
+#triangle5{
+    margin-top: -291px;
+    margin-left: 572px;
+}
+#team_img6{
+    margin-left: 12px;
+}
+#sms6{
+    margin-top: -260px;
+    margin-left: 938px;
+}
+#triangle6{
+    margin-top: -291px;
+    margin-left: 958px;
+}
+
+#bloc5{
+    margin: 0 auto;
+    background-image: url("img/BG.png");
+    width: 1440px;
+    height: 890px;
+    padding-top: 121px;
+}
+.contact_form{
+    float: left;
+    background: rgba(2, 22, 35, 0.71);
+    width:614px;
+    height: 460px;
+    margin-left: 150px;
+}
+.contact_text{
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    width: 545px;
+    border: 0;
+    border-bottom: 1px solid #6a777f;
+    background: rgba(255, 1, 1, 0);
+    margin-left: 34px;
+    margin-top: 15px;
+    height: 40px;
+    padding-bottom: 3px;
+    color: white;
+    outline: none ;
+
+}
+::placeholder {
+    color: #9aa2a7;
+}
+#name{
+    margin-top: 33px;
+}
+#message{
+    padding-bottom: 66px;
+    margin-top: 28px;
+}
+#send{
+    background: #6eeee4;
+    border: 0;
+    height: 52px;
+    width: 244px;
+    margin-left: 30px;
+    margin-top: 36px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #214744;
+    letter-spacing: 2px;
+    padding-left: 3px;
+}
+#send:active {
+    color: #e6e9e7;
+    background: dodgerblue;
+    transition: 0.1s;
+}
+.map{
+    float: right;
+    background: rgba(2, 22, 35, 0.71);
+    width:500px;
+    height: 460px;
+    margin-right: 150px;
+}
+.map_taxt{
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    text-align: left;
+    color: #c8cdd0;
+    margin-left: 30px;
+    line-height: 25px;
+}
+#adress{
+    margin-top: 29px;
+}
+#phone{
+    margin-top: -1px;
+}
+#web{
+    margin-top: 21px;
+}
+#map{
+    width: 455px;
+    height: 226px;
+    margin-top: 19px;
+    margin-left: 21px;
+}
+#follow{
+    text-align: center;
+    margin-top: 672px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #d4d5d5;
+}
+#follow_bt{
+    margin-left: 612px;
+    margin-top: 15px;
+}
+#follow_bt a{
+    display: inline-block;
+    width: 45px;
+    height: 40px;
+    background: #424648;
+    margin-left: 4px;
+    text-align: center;
+}
+#follow_bt a i{
+    color: #bec0c1;
+    font-size: 20px;
+    margin-top: 10px;
+}
+#follow_bt a:hover{
+    background: #6eeee4;
+    transition: 1s;
+}
+#follow_bt a:hover i{
+    color: #0d1c1b;
+    transition: 1s;
+    transform: scale(1.2);
+}
+
+
